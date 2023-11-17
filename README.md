@@ -1,3 +1,3 @@
 # DCIT_205_IA
-## Purpose of Website
 
+## Purpose of Website
