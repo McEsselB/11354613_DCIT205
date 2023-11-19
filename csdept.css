@@ -60,6 +60,12 @@
       z-index: 1;
       top: 0%;
   }
+  .header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
   .secondary-header {
     background-color: #5e4903; 
     display: flex;
@@ -124,14 +130,12 @@ video{
 }
 
 .hero-video {
-     width: 100%;
-     height: 65vh; 
-     position: fixed;
-     top: 0;
-     left: 0;
-     z-index: -1;
-     object-fit: cover; 
- }
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    z-index: -1; 
+    object-fit: cover;
+}
 
  .hero-text h2 {
     position: relative;
@@ -139,22 +143,22 @@ video{
     color: #ffffff;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 300px; 
+    margin-top: -150px; 
     font-size: 2em;
     background-color: #121648; 
-    padding: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+ 
     
  }
 
-     .text-box-container {
-         display: flex;
-         justify-content: space-between;
-         flex-wrap: wrap;
-         padding: 20px;
-         margin-top: 500px; 
-     }
+ .text-box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 15vh; /* Adjust margin top based on hero video height */
+    z-index: 2; 
+    background-color: rgb(162, 167, 138);
+}
 
      .text-box {
         flex: 1;
@@ -183,6 +187,15 @@ video{
         text-align: center;
         position: relative;
         font-size: 50px;
+    }
+    
+    .about-us-section {
+        background-color: #ffffff;
+        padding: 40px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 80vh; /* Adjust margin top based on hero video height */
+        z-index: 2; 
     }
     
     .about-us-section h2::after {
@@ -235,31 +248,95 @@ video{
      }
 
      .about-us-section {
-        background-color: #ffffff; /
+        background-color: #ffffff;
         padding: 40px;
         text-align: center;
         margin-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 70vh; /* Adjust this value to control the distance of "About Us" from the top */
+        position: relative;
+        overflow: hidden;
+    }
+    .about-us-section h2 {
+        text-align: center;
+        position: relative;
+        font-size: 50px;
+        margin-top: -10px; 
+    }
+    
+    
+    .about-us-section h2::after {
+        content: '';
+        display: block;
+        width: 120px;
+        height: 10px;
+        background-color: #121648;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
         
-        
+        transform: translateX(-50%);
+    }
+    .moving-text {
+        position: absolute;
+        left: 10%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        animation: moveLeft 10s linear infinite;
+        z-index: 1; 
+    }
+    
+    
+    
+    @keyframes moveLeft {
+        0% {
+            left: 100%; 
+        }
+        100% {
+            left: 0; 
+        }
     }
     .about-us-section p {
-        background-color: #fdfdfd;
-        padding: 20px;
-        border-radius: 50px;
-        box-shadow: 0 0 50px #448139;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #444; 
+        padding: 30px;
+        background-color: #f7f7f7; 
+        border-radius: 15px; 
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .about-us-section p {
+        text-align: justify; 
+    }
+    
+    .about-us-section p::first-letter {
+        font-size: 200%; 
+        font-weight: bold; 
+        margin: 0 2px 0 0; 
+        color: #000000; 
+        float: none; 
+        display: initial;
     }
 
+    .about-us-section .text-box-container {
+        z-index: 0; 
+    }
+    
+   
     .new-hero-section {
         position: relative;
         width: 100%;
-        height: 65vh;
-        background-color: #000; /* fallback color */
+        height: 45vh;
+        background-color: #000;
         background-size: cover;
         background-position: center;
         overflow: hidden;
         z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    
     
     .hero-slider {
         display: flex;
@@ -286,23 +363,69 @@ video{
     .new-hero-section .content h1 {
         font-size: 3em;
         margin-bottom: 20px;
+        text-decoration: underline;
+        text-decoration-color: #fff; 
+        text-underline-offset: 10px; /* Adjust the offset if needed */
     }
     
-    .new-hero-section .content p {
-        font-size: 1.2em;
-        line-height: 1.5;
+    .new-hero-section .content .gallery-section {
+        margin-top: 0px;
+    }
+
+  
+    .gallery-section a {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #121648;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        font-size: 18px;
+    }
+    
+    .gallery-section a:hover {
+        background-color: #5e4903;
     }
     
     .text-background {
-        background-color: rgba(0, 0, 0, 0.7); /* Background color with some opacity */
-        color: white; /* Text color */
-        padding: 10px 20px; /* Padding around the text */
-        border-radius: 5px; /* Rounded corners */
+        background-color: rgba(111, 107, 107, 0.7); /* Background color with some opacity */
+        color: white; 
+        padding: 10px 20px; 
+        border-radius: 20px;
+       
     }
+
+   
+    
+    .contact-content {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .contact-content h2 {
+        font-size: 28px;
+        margin-top: 100%;
+    }
+    
+    .contact-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    /* Style your form elements as needed */
+    .contact-content form {
+        /* Your form styles */
+    }
+    
+
+
+
      footer {
          background-color: #0a3dd4;
          color: #fff;
          padding: 10px;
          text-align: center;
          margin-top: 100%;
+         position: relative;
      }
