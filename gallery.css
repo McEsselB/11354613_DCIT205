@@ -1,29 +1,37 @@
-/* Gallery Page Styles */
+
 body {
    font-family: Arial, sans-serif;
    margin: 0;
    padding: 0;
-   background-color: #f0f0f0;
-}
-
-.header-container {
-   background-color: #121648;
-   color: #5e4903;
-   position: fixed;
-   width: 100%;
-   z-index: 1;
+   background-color: #8e8181;
 }
 
 header {
+   background-color: #121648;
+   color: #5e4903;
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 20px 3px;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+   top: 0%;
+}
+.header-container {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 1000;
 }
 
+header img {
+   max-width: 200px;
+   margin-left: -5;
+}
 
 img {
-   max-width: 200px;
+   max-width: 500px;
    margin-left: -5;
 }
 
@@ -33,6 +41,8 @@ h1 {
    margin-left: 0;
    color: #fff;
 }
+
+
 
 nav ul {
    list-style-type: none;

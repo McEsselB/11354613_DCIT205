@@ -12,7 +12,7 @@ function slideImages() {
         setTimeout(() => {
             slider.appendChild(currentSlide);
             slider.style.transition = 'none';
-            slider.style.transform = 'translateX(0)';
+            slider.style.transform = 'translateX(1)';
             isTransitioning = false;
         }, 1000);
     }
