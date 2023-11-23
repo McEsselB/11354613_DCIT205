@@ -256,7 +256,7 @@ video{
         padding: 40px;
         text-align: center;
         margin-bottom: 50px;
-        margin-top: 70vh; /* Adjust this value to control the distance of "About Us" from the top */
+        margin-top: 70vh; 
         position: relative;
         overflow: hidden;
     }
@@ -369,7 +369,7 @@ video{
         margin-bottom: 20px;
         text-decoration: underline;
         text-decoration-color: #fff; 
-        text-underline-offset: 10px; /* Adjust the offset if needed */
+        text-underline-offset: 10px; 
     }
     
     .new-hero-section .content .gallery-section {
@@ -393,7 +393,7 @@ video{
     }
     
     .text-background {
-        background-color: rgba(111, 107, 107, 0.7); /* Background color with some opacity */
+        background-color: rgba(111, 107, 107, 0.7); 
         color: white; 
         padding: 10px 20px; 
         border-radius: 20px;
@@ -417,9 +417,9 @@ video{
         margin-bottom: 20px;
     }
     
-    /* Style your form elements as needed */
+   
     .contact-content form {
-        /* Your form styles */
+       
     }
     
 .social-icons .fa-brands{

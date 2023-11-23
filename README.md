@@ -1,13 +1,13 @@
-# DCIT_205_IA
-## 11354613
-##  Mc-Essel Kweku Bondzie 
+### DCIT_205_IA
+#### 11354613
+#### Mc-Essel Kweku Bondzie 
 
-### Introduction and Purpose of The Building This Website
+## Introduction and Purpose of The Building This Website
  <p style="text-align: justify;">
  Building websites could be for so many different reasons. In this case, the website I am building is a website for an educational instituition, that is the University of Ghana, Computer Science Department. This website will provide an environment for the members of the Computer Science Department to have access to some sort of information like upcoming events of the department, and news updates. The website could also serve great purpose to anyone else who is outside the community but will like to join the community soon. Some of these purposes the website could serve outsiders of the community is that it provides an about section that will brief anyone who visits the about us section of the home page what the purpose of computer sceince department is. Courses offered from the department are also displayed on the website so as to help anyone who will be interested in joining the community course options to choose from.
  In conlcusion, this website I am building for the University of Ghana, Computer Sceince department it to host or create an online version for the presence of the department and also to ensure the sharing of information from the department to its members, some outsiders who are interested in the community and information amongst the members of the community itself.  </p>
 
-### Setting up your git.
+## Setting up your git.
 1. Install Git and sign up for git hub account.
 
 2. Run git bash and set up your git user name and email by runing the following code lines in git terminal:<br>
@@ -19,7 +19,7 @@
 
 3. Close git bash<br>
 
-### Detailed instructions on how to clone and set up the project.
+## Detailed instructions on how to clone and set up the project.
  
 1. In Visual Studio Code, open your open your bash terminal <br>
 
@@ -58,6 +58,6 @@
 12. Open your github repo to notice or confirm, all changed and added files has been uploaded.<br>
 
 
-### Screenshots of My Web Page
+## Screenshots of My Web Page
 
-### Lesson from the Project
+## Lesson from the Project
