@@ -3,8 +3,9 @@
 ##  Mc-Essel Kweku Bondzie 
 
 ### Introduction and Purpose of The Building This Website
+ <p style="text-align: justify;">
  Building websites could be for so many different reasons. In this case, the website I am building is a website for an educational instituition, that is the University of Ghana, Computer Science Department. This website will provide an environment for the members of the Computer Science Department to have access to some sort of information like upcoming events of the department, and news updates. The website could also serve great purpose to anyone else who is outside the community but will like to join the community soon. Some of these purposes the website could serve outsiders of the community is that it provides an about section that will brief anyone who visits the about us section of the home page what the purpose of computer sceince department is. Courses offered from the department are also displayed on the website so as to help anyone who will be interested in joining the community course options to choose from.
- In conlcusion, this website I am building for the University of Ghana, Computer Sceince department it to host or create an online version for the presence of the department and also to ensure the sharing of information from the department to its members, some outsiders who are interested in the community and information amongst the members of the community itself.  
+ In conlcusion, this website I am building for the University of Ghana, Computer Sceince department it to host or create an online version for the presence of the department and also to ensure the sharing of information from the department to its members, some outsiders who are interested in the community and information amongst the members of the community itself.  </p>
 
 ### Setting up your git.
 1. Install Git and sign up for git hub account.
