@@ -7,6 +7,7 @@
          font-family: Arial, sans-serif;
          background-color: #f0f0f0;
          margin: 0;
+         padding-top: 100px; /* Adjust padding to avoid content being hidden under the header */
      }
      .dropdown-content {
         display: none;
@@ -115,11 +116,12 @@
 .video-container{
     position: relative;
 overflow: hidden;
+
 }
 video{
     width: 100%;
     height: auto;
-}
+    }
 .text-overlay{
     position: absolute;
     top: 10%;
@@ -145,8 +147,7 @@ video{
     margin-right: 100px;
     margin-top: -150px; 
     font-size: 2em;
-    background-color: #121648; 
- 
+    background-color: #121648;  
     
  }
 
@@ -166,17 +167,20 @@ video{
         padding: 20px;
         background-color: #f8f8f8;
         text-align: center;
-        margin: 10px;
+        margin: 20px;
         transition: all 0.4s ease; 
         transform-style: preserve-3d;
         perspective: 1000px;
         transform: perspective(1000px) rotateY(0deg);
-        border-radius: 45px; 
+        border-radius: 60px; 
+        opacity: 0.5;
     }
     
     .text-box:hover {
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
         transform: perspective(1000px) translateZ(200px); 
+        opacity: 0.9;
+      
     }
     
      h2{
@@ -194,7 +198,7 @@ video{
         padding: 40px;
         text-align: center;
         margin-bottom: 50px;
-        margin-top: 80vh; /* Adjust margin top based on hero video height */
+        margin-top: 0vh; /* Adjust margin top based on hero video height */
         z-index: 2; 
     }
     
