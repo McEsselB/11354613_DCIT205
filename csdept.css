@@ -444,3 +444,40 @@ video{
          margin-top: 100%;
          position: relative;
      }
+     .contact-content {
+        padding: 20px;
+        text-align: center;
+        background-color: #0a3dd4; /* Match footer background color */
+        color: #fff;
+    }
+    
+    .contact-content h2 {
+        font-size: 28px;
+        /* Additional styles if needed */
+        color: #333; /* Example color */
+        margin-bottom: 10px; /* Example margin */
+    }
+    
+    .contact-content p {
+        font-size: 16px;
+        /* Additional styles if needed */
+        line-height: 1.5; /* Example line height */
+        color: #666; /* Example color */
+    }
+    
+    .contact-content form {
+        /* Additional form styles if needed */
+        margin-top: 20px; /* Example margin */
+    }
+    
+    /* Additional styles for form elements if needed */
+    .contact-content form input[type="text"],
+    .contact-content form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        /* Example styles for input and textarea */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
