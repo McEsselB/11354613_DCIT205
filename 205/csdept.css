@@ -4,11 +4,16 @@
      }
      
      body {
-         font-family: Arial, sans-serif;
-         background-color: #f0f0f0;
-         margin: 0;
-         padding-top: 100px; /* Adjust padding to avoid content being hidden under the header */
-     }
+        font-family: Arial, sans-serif;
+        background-image: url('ground.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding-top: 100px;
+        position: relative;
+        opacity: 0.9;
+        
+    }
      .dropdown-content {
         display: none;
         position: absolute;
@@ -114,7 +119,7 @@
 
     
 .video-container{
-    position: relative;
+    position: absolute;
 overflow: hidden;
 
 }
@@ -156,14 +161,14 @@ video{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
-    margin-top: 15vh; /* Adjust margin top based on hero video height */
+    margin-top: 5vh; /* Adjust margin top based on hero video height */
     z-index: 2; 
     background-color: rgb(162, 167, 138);
 }
 
      .text-box {
         flex: 1;
-        border: 1px solid #ccc;
+        border: 1px solid #2a0c96;
         padding: 20px;
         background-color: #f8f8f8;
         text-align: center;
@@ -198,8 +203,10 @@ video{
         padding: 40px;
         text-align: center;
         margin-bottom: 50px;
-        margin-top: 0vh; /* Adjust margin top based on hero video height */
-        z-index: 2; 
+        margin-top: 20vh; /* Adjust this value to move it up or down */
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
     }
     
     .about-us-section h2::after {
@@ -252,7 +259,7 @@ video{
      }
 
      .about-us-section {
-        background-color: #ffffff;
+        background-color: #6f0707;
         padding: 40px;
         text-align: center;
         margin-bottom: 50px;
@@ -275,11 +282,13 @@ video{
         height: 10px;
         background-color: #121648;
         position: absolute;
-        bottom: -20px;
+        bottom: -10px;
         left: 50%;
         
         transform: translateX(-50%);
     }
+    /* Styles for the empty div */
+
     .moving-text {
         position: absolute;
         left: 10%;
@@ -400,84 +409,64 @@ video{
        
     }
 
-   
-    
-    .contact-content {
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .contact-content h2 {
-        font-size: 28px;
-        margin-top: 100%;
-    }
-    
-    .contact-content p {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    
-   
-    .contact-content form {
-       
-    }
-    
-.social-icons .fa-brands{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px; 
-    font-size: 20px;
-    color: #000;
-    background: #fff;
-    margin-right: 15px;
-    cursor: pointer;
+   /* Footer styles */
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
 }
 
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
 
-     footer {
-         background-color: #0a3dd4;
-         color: #fff;
-         padding: 10px;
-         text-align: center;
-         margin-top: 100%;
-         position: relative;
-     }
-     .contact-content {
-        padding: 20px;
-        text-align: center;
-        background-color: #0a3dd4; /* Match footer background color */
-        color: #fff;
-    }
-    
-    .contact-content h2 {
-        font-size: 28px;
-        /* Additional styles if needed */
-        color: #333; /* Example color */
-        margin-bottom: 10px; /* Example margin */
-    }
-    
-    .contact-content p {
-        font-size: 16px;
-        /* Additional styles if needed */
-        line-height: 1.5; /* Example line height */
-        color: #666; /* Example color */
-    }
-    
-    .contact-content form {
-        /* Additional form styles if needed */
-        margin-top: 20px; /* Example margin */
-    }
-    
-    /* Additional styles for form elements if needed */
-    .contact-content form input[type="text"],
-    .contact-content form textarea {
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 10px;
-        /* Example styles for input and textarea */
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+/* Section headings */
+.footer-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Individual sections */
+.footer-content .location p,
+.footer-content .contact-info p,
+.footer-content .about-us p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Reset the first letter styles for footer paragraphs */
+.footer-content p::first-letter {
+    font-size: inherit;
+    font-weight: normal;
+    margin: 0;
+    color: initial;
+    float: none;
+    display: initial;
+}
+
