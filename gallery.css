@@ -1,0 +1,99 @@
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #8e8181;
+}
+
+header {
+   background-color: #121648;
+   color: #5e4903;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 3px;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+   top: 0%;
+}
+.header-container {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 1000;
+}
+
+header img {
+   max-width: 200px;
+   margin-left: -5;
+}
+
+img {
+   max-width: 500px;
+   margin-left: -5;
+}
+
+h1 {
+   font-size: 30px;
+   margin-right: 20px;
+   margin-left: 0;
+   color: #fff;
+}
+
+
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+}
+
+nav li {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+nav a {
+   text-decoration: none;
+   color: #f7f5f5;
+   font-weight: bold;
+   font-size: 16px;
+   white-space: nowrap;
+}
+
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.image {
+   width: 200px; /* Adjust width as needed */
+   height: 200px; /* Adjust height as needed */
+   margin: 10px; /* Adjust margins as needed */
+   overflow: hidden;
+}
+
+.image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: transform 0.3s ease;
+}
+
+.image:hover img {
+   transform: scale(1.1); /* Adjust scale on hover as desired */
+}
+
+
+/* Footer styles */
+footer {
+   background-color: #0a3dd4;
+   color: #fff;
+   padding: 10px;
+   
+   text-align: center;
+   margin-top: 100%;
+   width: 100%;
+}
