@@ -502,7 +502,7 @@ footer {
 .academics-section ul li a:hover {
     text-decoration: underline; /* Hover effect for links */
     color: #ffcc00;
-    font-size: ; /* Hover color for links */
+    font-size: 20px; /* Hover color for links */
 }
 
 
