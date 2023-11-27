@@ -20,10 +20,7 @@ body {
    z-index: 1;
 }
 
-.dropdown-btn:hover + .dropdown-content,
-.dropdown-content:hover {
-   display: block;
-}
+
 .dropdown-btn {
    background: none;
    border: none;
@@ -421,9 +418,7 @@ footer {
   color: #000;
 }
 
-.footer-content div {
-    /* Your existing styles for individual sections within footer content */
-}
+
 
 .footer-content h3 {
     /* Styling for section headings */
@@ -502,7 +497,7 @@ footer {
 .academics-section ul li a:hover {
     text-decoration: underline; /* Hover effect for links */
     color: #ffcc00;
-    font-size: 20px; /* Hover color for links */
+    font-size: 20px; 
 }
 
 
