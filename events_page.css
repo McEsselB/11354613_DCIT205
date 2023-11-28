@@ -1,0 +1,189 @@
+body, h1, h2, p, ul, li {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   margin: 0;
+   padding-top: 50px; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px;
+  color: #fff;
+}
+
+h2 {
+   text-align: center; 
+   margin-top: 30px; 
+   font-size: 40px; 
+   color: #000000; 
+ }
+
+header img {
+   max-width: 200px;
+   margin-left: -5;
+}
+
+header {
+background-color: #121648;
+color: #5e4903;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 3px;
+position: fixed;
+width: 100%;
+z-index: 1;
+top: 0%;
+}
+.header-container {
+position: fixed;
+width: 100%;
+z-index: 1000;
+}
+
+h1 {
+   font-size: 30px;
+   margin-right: 20px;
+   margin-left: 0;
+}
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+}
+
+nav li {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+nav a {
+   text-decoration: none;
+   color: #f7f5f5;
+   font-weight: bold;
+   font-size: 16px;
+   white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+.event {
+   display: flex;
+   align-items: center;
+ 
+}
+
+.event-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: justify;
+   width: 60%;
+}
+
+.event-image {
+   flex: 0 0 20%;
+}
+
+.event-image img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 500px; /
+}
+.division {
+   width: 80%; /* Adjust width as needed */
+   max-width: 600px; /* Set a maximum width */
+   margin: 0 auto; /* Center the div */
+}
+
+
+.event-text {
+   flex: 1;
+   text-align: center;
+}
+
+.event-text p {
+   margin: 0;
+   font-size: 20px;
+   line-height: 1.6;
+}
+
+.event-text p strong {
+   font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+
+.event.event1 {
+   background-color: #ffcccc; */
+}
+
+.event.event2 {
+   background-color: #ccffcc; 
+}
+
+.event.event3 {
+   background-color: #ccccff; 
+}
+
+.news-section {
+   flex: 1;
+   padding-left: 20px; 
+}
+
+
+
+img {
+   max-width: 50%;
+   height: auto;
+}
+
+/* Reduce event text font sizes */
+.event-text p {
+   font-size: 16px;
+}
+
+
+
+
+
+
+
+footer {
+   background-color: #121648;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   position: relative;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

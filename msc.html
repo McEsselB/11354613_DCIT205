@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Computer Science Department</title>
-    <link rel="stylesheet" href="staff_profiles.css">
     <link rel="stylesheet" href="csdept.css">
+    <link rel="stylesheet" href="indprograms.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
 </head>
 <body>
     <div class="header-container">
         <header>
             <div class="dropdown">
-                <!-- Dropdown Content -->
             </div>
             <img src="ug logoo.png" alt="University Logo">
             <h1>Department of Computer Science</h1>
@@ -21,16 +21,52 @@
                     <li><a href="cs_homepage.html">Home</a></li>
                     <li><a href="about_us.html">About Us</a></li>
                     <li><a href="programs.html">Programs</a></li>
-                    <li><a href="research.html">Research</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact_us.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-
+    <div class="under">
+      <h1>Undergraduate Courses</h1>
+  </div>
+  <main>
+    <section id="mphilComputerScience">
+        <h1>MPhil. Computer Science</h1>
+    
+        <h2 onclick="toggleList('mphilLevel600')">Level 600</h2>
+        <ul id="mphilLevel600">
+            <li>First Semester</li>
+            <li>CSCD 601  Research Methods</li>
+            <li>CSCD 603  Advanced Data Structures and Algorithms</li>
+            <li>CSCD 609  Principles of Wireless and Mobile Systems</li>
+            <li>ELECTIVES</li>
+            <li>CSCD 607  Advanced Computer Networks</li>
+            <li>CSCD 611  Advanced Database Systems</li>
+            <li>CPEN 641  Advanced Operating Systems</li>
+            <li>CPEN 637  Human Computer Interaction</li>
+    
+            <li>Second Semester</li>
+            <li>CSCD 606  Advanced Software Engineering</li>
+            <li>CSCD 604  Distributed Systems</li>
+            <li>CSCD 610  Seminar I</li>
+            <li>CSCD 612  Intelligent Systems</li>
+            <li>ELECTIVES:</li>
+            <li>CSCD 616  Bioinformatics</li>
+            <li>CSCD 608  Advanced Computer Vision</li>
+            <li>CSCD 614  Wireless Systems Design</li>
+            <li>CPEN 656  Networks Security</li>
+            <li>MATH 652  Computational Mathematics</li>
+            <li>CSCD 630  MPhil Thesis</li>
+        </ul>
+    </section>
+       
+   
+  </main>
     <footer>
         <p>&copy; 2023 University of Ghana - Computer Science Department</p>
     </footer>
 </body>
+<script src="indprograms.js"></script>
 </html>

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Computer Science Department</title>
-    <link rel="stylesheet" href="staff_profiles.css">
     <link rel="stylesheet" href="csdept.css">
+    <link rel="stylesheet" href="indprograms.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
 </head>
 <body>
     <div class="header-container">
         <header>
             <div class="dropdown">
-                <!-- Dropdown Content -->
             </div>
             <img src="ug logoo.png" alt="University Logo">
             <h1>Department of Computer Science</h1>
@@ -21,16 +21,212 @@
                     <li><a href="cs_homepage.html">Home</a></li>
                     <li><a href="about_us.html">About Us</a></li>
                     <li><a href="programs.html">Programs</a></li>
-                    <li><a href="research.html">Research</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact_us.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
+    <div class="under">
+      <h1>Undergraduate Courses</h1>
+  </div>
+  <main>
 
+      <section id="computerScience">
+          <h1>Computer Science</h1>
+
+          <h2 onclick="toggleList('csLevel100')">Level 100 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="csLevel100">
+              <li>UGRC 150  Critical Thinking and Practical Reasoning</li>
+              <li>MATH 121  Algebra and Trigonometry</li>
+              <li>MATH 123  Vectors and Geometry</li>
+              <li>DCIT 101  Introduction to Computer Science</li>
+              <li>DCIT 103  Office Productivity Tools</li>
+              <li>STAT 111  Introduction to Statistics and Probability I</li>
+          </ul>
+
+      </section>
+
+      <section id="informationTechnology">
+          <h1>Information Technology</h1>
+
+          <h2 onclick="toggleList('itLevel100')">Level 100 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="itLevel100">
+              <li>UGRC 150  Critical Thinking and Practical Reasoning</li>
+              <li>DCIT 101  Introduction to Computer Science</li>
+              <li>DCIT 103  Office Productivity Tools</li>
+              <li>DCIT 105  Mathematics for IT Professionals</li>
+              <li>STAT 111  Introduction to Statistics and Probability I</li>
+              <li>ELECTIVES:
+                      <li>MATH 121  Algebra and Trigonometry</li>
+                      <li>MATH 123  Vectors and Geometry</li>
+                      <li>ECON 101  Introduction to Economics I</li>
+          </ul>
+      </section>
+
+      <section id="computerScience">
+          <h2 onclick="toggleList('csLevel200')">Level 200 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="csLevel200">
+              <li>First Semester</li>
+              <li>UGRC 210  Academic Writing II</li>
+              <li>DCIT 201  Programming I</li>
+              <li>DCIT 203  Digital and Logic Systems Design</li>
+              <li>DCIT 205  Multi Media and Web Design</li>
+              <li>DCIT 207  Computer Architecture & Organisation</li>
+              <li>MATH 223  Calculus II</li>
+
+              <li>Second Semester</li>
+              <li>UGRC 220  Introduction to African Studies</li>
+              <li>DCIT 202  Mobile Application Development</li>
+              <li>DCIT 204  Data Structures & Algorithm I</li>
+              <li>DCIT 206  Systems Administration</li>
+              <li>DCIT 208  Software Engineering</li>
+              <li>DCIT 212  Numerical and Computational Methods</li>
+          </ul>
+      </section>
+
+      <section id="informationTechnology">
+          <h2 onclick="toggleList('itLevel200')">Level 200 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="itLevel200">
+              <li>First Semester</li>
+              <li>UGRC 210  Academic Writing II</li>
+              <li>DCIT 201  Programming I</li>
+              <li>DCIT 203  Digital and Logic Systems Design</li>
+              <li>DCIT 205  Multi Media and Web Design</li>
+              <li>DCIT 207  Computer Architecture & Organisation</li>
+              <li>DCIT 209  E-Business Architectures</li>
+
+              <li>Second Semester</li>
+              <li>UGRC 220  Introduction to African Studies</li>
+              <li>DCIT 202  Mobile Application Development</li>
+              <li>DCIT 204  Data Structures & Algorithm I</li>
+              <li>DCIT 206  Systems Administration</li>
+              <li>DCIT 208  Software Engineering</li>
+              <li>ELECTIVES:</li>
+              <li>DCIT 200  Internship</li>
+              <li>DCIT 212  Numerical and Computational Methods</li>
+              <li>DCIT 214  Information Modeling and Specification</li>
+          </ul>
+      </section>
+
+      <section id="computerScience">
+
+          <h2 onclick="toggleList('csLevel300')">Level 300 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="csLevel300">
+              <li>First Semester</li>
+              <li>DCIT 301  Operating Systems</li>
+              <li>DCIT 303  Computer Networks</li>
+              <li>DCIT 305  Database Fundamentals</li>
+              <li>DCIT 313  Introduction to Artificial Intelligence</li>
+              <li>MATH 359  Discrete Mathematics</li>
+              <li>ELECTIVES</li>
+              <li>DCIT 307  Mini-Project</li>
+              <li>DCIT 309  Embedded Systems and IoT</li>
+              <li>DCIT 311  Machine Learning</li>
+
+              <li>Second Semester</li>
+              <li>ELECTIVES:</li>
+              <li>DCIT 400  Project</li>
+              <li>DCIT 401  Social, Legal, Ethical and Professional Issues</li>
+              <li>DCIT 407  Image Processing</li>
+              <li>DCIT 306  Cloud Computing Numerical and Computational Methods</li>
+              <li>DCIT 316  Computational models for Social Media Mining</li>
+          </ul>
+      </section>
+
+      <section id="informationTechnology">
+
+          <h2 onclick="toggleList('itLevel300')">Level 300 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="itLevel300">
+              <li>First Semester</li>
+              <li>DCIT 301  Operating Systems</li>
+              <li>DCIT 303  Computer Networks</li>
+              <li>DCIT 305  Database Fundamentals</li>
+              <li>DCIT 313  Introduction to Artificial Intelligence</li>
+              <li>DCIT 317  IT Project Management</li>
+              <li>ELECTIVES</li>
+              <li>DCIT 307  Mini-Project</li>
+              <li>DCIT 315  Principles of 3D Environment</li>
+              <li>DCIT 321  Software Evolution</li>
+
+              <li>Second Semester</li>
+              <li>DCIT 302  Human-Computer Interaction</li>
+              <li>DCIT 304  Research Methods</li>
+              <li>DCIT 308  Data Structures and Algorithms II</li>
+              <li>DCIT 312  Information Security Management</li>
+              <li>DCIT 318  Programming II</li>
+              <li>ELECTIVES</li>
+              <li>DCIT 314  Game Engine Architecture</li>
+              <li>DCIT 322  Database Management Administration</li>
+          </ul>
+      </section>
+
+      <section id="computerScience">
+          <h2 onclick="toggleList('csLevel400')">Level 400 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="csLevel400">
+              <li>First Semester</li>
+              <li>DCIT 400  Project</li>
+              <li>DCIT 401  Social, Legal, Ethical and Professional Issues</li>
+              <li>DCIT 407  Image Processing</li>
+              <li>ELECTIVES:</li>
+              <li>DCIT 403  Designing Intelligent Agents</li>
+              <li>DCIT 405  Statistical Models and Methods for Data Science</li>
+              <li>DCIT 411  Bioinformatics</li>
+              <li>DCIT 417  Network Performance Analysis and Modeling</li>
+              <li>DCIT 423  Network Servers and Infrastructure</li>
+
+              <li>Second Semester</li>
+              <li>DCIT 400  Project</li>
+              <li>DCIT 402  Management Principles in Computing</li>
+              <li>DCIT 418  Systems and Network Security</li>
+              <li>DCIT 428  Wireless Systems and Networks</li>
+              <li>ELECTIVES:</li>
+              <li>DCIT 404  Advanced Databases</li>
+              <li>DCIT 406  Advanced Computer Networks</li>
+              <li>DCIT 408  Compilers</li>
+              <li>DCIT 426  Telecommunication Systems</li>
+              <li>DCIT 412  Computer Vision</li>
+              <li>DCIT 414  Data Mining and Warehousing</li>
+              <li>DCIT 416  Digital Signal Processing</li>
+              <li>DCIT 422  Information Visualization</li>
+          </ul>
+      </section>
+
+      <section id="informationTechnology">
+          <h2 onclick="toggleList('itLevel400')">Level 400 <i class="fas fa-chevron-down"></i></h2>
+          <ul id="itLevel400">
+              <li>First Semester</li>
+              <li>DCIT 400 Project</li>
+              <li>DCIT 401  Social, Legal, Ethical and Professional Issues</li>
+              <li>DCIT 409  Digital Forensics</li>
+              <li>ELECTIVE:</li>
+              <li>DCIT 413  Play and Games</li>
+              <li>DCIT 415  Advanced Software Engineering</li>
+              <li>DCIT 419  Agile Methods</li>
+              <li>DCIT 421  Persuasive Systems Development</li>
+
+              <li>Second Semester</li>
+              <li>DCIT 400  Project</li>
+              <li>DCIT 402  Management Principles in Computing</li>
+              <li>DCIT 418  Systems and Network Security</li>
+              <li>DCIT 428  Wireless Systems and Networks</li>
+              <li>DCIT 318  Programming II</li>
+              <li>ELECTIVES:</li>
+              <li>DCIT 404  Advanced Databases</li>
+              <li>DCIT 406  Advanced Computer Networks</li>
+              <li>DCIT 408  Compilers</li>
+              <li>DCIT 426  Telecommunication Systems</li>
+              <li>DCIT 412  Computer Vision</li>
+              <li>DCIT 414  Data Mining and Warehousing</li>
+              <li>DCIT 416  Digital Signal Processing</li>
+              <li>DCIT 422  Information Visualization</li>
+          </ul>
+      </section>
+  </main>
     <footer>
         <p>&copy; 2023 University of Ghana - Computer Science Department</p>
     </footer>
 </body>
+<script src="indprograms.js"></script>
 </html>

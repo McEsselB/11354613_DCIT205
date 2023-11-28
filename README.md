@@ -60,4 +60,8 @@
 
 ## Screenshots of My Web Page
 
+![Alt text](<rmScreenshot 2023-11-28 205953.png>) ![Alt text](<rmScreenshot 2023-11-28 210027.png>) ![Alt text](<rmScreenshot 2023-11-28 210040.png>) ![Alt text](<rmScreenshot 2023-11-28 210100.png>) ![Alt text](<rmScreenshot 2023-11-28 210120.png>) ![Alt text](<rmScreenshot 2023-11-28 210141.png>) ![Alt text](<rmScreenshot 2023-11-28 210157.png>) ![Alt text](<rmScreenshot 2023-11-28 210213.png>) ![Alt text](<rmScreenshot 2023-11-28 210232.png>) ![Alt text](<rmScreenshot 2023-11-28 210253.png>) ![Alt text](<rmScreenshot 2023-11-28 210317.png>) ![Alt text](<rmScreenshot 2023-11-28 210508.png>)
+
 ## Lesson from the Project
+In this Project I was able to learn a lot of crucial lessons. During the time I was developing the front-end for the Computer Science Dept. I worked with GitHub and Git. From this, I was able to learn some basic processes like tracking files all the way down to pushing them to a github repository. 
+Generally, I have learnt the basics of HTML, CSS and JavaScript.

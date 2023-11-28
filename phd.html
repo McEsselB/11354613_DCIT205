@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Computer Science Department</title>
-    <link rel="stylesheet" href="staff_profiles.css">
     <link rel="stylesheet" href="csdept.css">
+    <link rel="stylesheet" href="indprograms.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
 </head>
 <body>
     <div class="header-container">
         <header>
             <div class="dropdown">
-                <!-- Dropdown Content -->
             </div>
             <img src="ug logoo.png" alt="University Logo">
             <h1>Department of Computer Science</h1>
@@ -21,16 +21,85 @@
                     <li><a href="cs_homepage.html">Home</a></li>
                     <li><a href="about_us.html">About Us</a></li>
                     <li><a href="programs.html">Programs</a></li>
-                    <li><a href="research.html">Research</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact_us.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
+    <div class="mast">
+        <h1>PhD Programmes</h1>
+    </div>
+    <main>
+        
+        
+        <section id="PhdComputerScienceYear1">
+            <h1>PhD in Science in Computer Science - Year 1</h1>
+        
+            <h2 onclick="toggleList('PhdYear1Semester1')">First Semester</h2>
+            <ul id="PhdYear1Semester1">
+                <li>FASC 701  Science and Society (Faculty Wide)</li>
+                <li>FASC 700  Special Topics in Science</li>
+                <li>ELECTIVES</li>
+                <li>CSCD 721  Grand Research Challenges in Computer Science</li>
+                <li>CSCD 723  Emerging Database Models</li>
+                <li>CSCD 725  Research in Bioinformatics and Computational Biology</li>
+                <li>CSCD 727  Ubiquitous Computing</li>
+            </ul>
+        
+            <h2 onclick="toggleList('PhdYear1Semester2')">Second Semester</h2>
+            <ul id="PhdYear1Semester2">
+                <li>CSCD 722  New Developments in Cyber Security and Networks</li>
+                <li>FASC 702  Advanced Quantitative Research Methods</li>
+                <li>ELECTIVES</li>
+                <li>CSCD 724  New Developments in Computer Architecture</li>
+                <li>CSCD 726  Next Generation Wireless Systems and Networks</li>
+                <li>CSCD 716  New Directions in Artificial Intelligence</li>
+                <li>CSCD 728  Research Issues in Social Networks</li>
+                <li>CSCD 732  Advances in High-Performance Computing</li>
+                <li>FASC 710  Teaching Science at the Tertiary Level</li>
+            </ul>
+        </section>
 
+        <section id="year2ResearchSeminars">
+            <h1>Year 2  Research Seminars</h1>
+        
+            <h2 onclick="toggleList('year2ResearchSemester1')">First Semester</h2>
+            <ul id="year2ResearchSemester1">
+                <li>CSCD 710  Seminar I (Research Proposal)</li>
+            </ul>
+        
+            <h2 onclick="toggleList('year2ResearchSemester2')">Second Semester</h2>
+            <ul id="year2ResearchSemester2">
+                <li>CSCD 720  Seminar II (Experiential Research Learning)</li>
+            </ul>
+        </section>
+        
+        <section id="year3ResearchSeminars">
+            <h1>Year 3 - Research Seminars</h1>
+        
+            <h2 onclick="toggleList('year3ResearchSemester2')">Second Semester</h2>
+            <ul id="year3ResearchSemester2">
+                <li>CSCD 740 - Seminar IV (Research Results)</li>
+                <li>CSCD 700 - PhD Thesis</li>
+            </ul>
+        </section>
+        
+
+        <section id="year4ResearchSeminars">
+            <h1>Year 4  Research Seminars</h1>
+        
+            <h2 onclick="toggleList('year4ResearchSemester2')">Second Semester</h2>
+            <ul id="year4ResearchSemester2">
+                <li>CSCD 740  Seminar IV (Research Results)</li>
+                <li>CSCD 700  PhD Thesis</li>
+            </ul>
+        </section>
+  </main>
     <footer>
         <p>&copy; 2023 University of Ghana - Computer Science Department</p>
     </footer>
 </body>
+<script src="indprograms.js"></script>
 </html>
